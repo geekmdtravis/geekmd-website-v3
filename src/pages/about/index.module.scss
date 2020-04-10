@@ -1,0 +1,20 @@
+@import "./../../components//variables";
+
+header {
+  margin: 0 auto $se-md auto;
+}
+
+.section {
+  max-width: $width-blog;
+  margin: 0 auto $se-md auto;
+  padding: 0 $se-sm;
+}
+
+.list {
+  list-style-type: disc;
+}
+
+.list_item {
+  margin-bottom: $se-xs;
+  list-style-position: inside;
+}

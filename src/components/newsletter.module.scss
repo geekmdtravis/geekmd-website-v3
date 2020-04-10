@@ -1,0 +1,31 @@
+@import "./variables";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.form {
+  width: 100%;
+}
+
+.form_field {
+  max-width: 100%;
+  background-color: $color-off-white;
+  padding: $se-sm;
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+  }
+}
+
+.form_button {
+  text-align: center;
+  margin-top: $se-sm;
+}

@@ -1,0 +1,39 @@
+@import "./variables";
+
+.banner {
+  padding: $se-xs;
+  text-align: center;
+  color: $color-brand-black;
+  font-weight: 800;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__danger {
+    background-color: $color-danger;
+  }
+
+  &__warn {
+    background-color: $color-warn;
+  }
+
+  &__okay {
+    background-color: $color-okay;
+  }
+
+  &__hidden {
+    display: none;
+  }
+}
+
+.end_cap {
+  width: $default-font-size;
+  height: $default-font-size;
+}
+.close_button {
+  background: none;
+  background-color: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,102 @@
+@import "./variables";
+
+.footer {
+  width: 100%;
+  padding: $se-lg 0;
+  background-color: $color-off-white;
+}
+
+.container {
+  max-width: $width-max;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $se-lg;
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.column {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  width: 100%;
+  max-width: 25rem;
+  &:first-of-type {
+    text-align: left;
+  }
+  &:last-of-type {
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 575px) {
+    max-width: 100%;
+    margin-bottom: $se-sm;
+    &:first-of-type,
+    &:last-of-type {
+      text-align: center;
+    }
+  }
+}
+
+.heading {
+  font-family: $default-content-font-family;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  color: $color-brand-black;
+}
+
+.copy {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.address_line {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.social_container {
+  display: inline;
+  margin: 0 auto;
+}
+
+.social_heading {
+  text-align: center;
+  margin-bottom: $se-md;
+}
+
+.social_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $se-lg;
+}
+
+.social_icon {
+  display: inline;
+  font-size: 3.5rem;
+  &:not(:last-of-type) {
+    margin-right: 3rem;
+  }
+}
+
+.social_link_item {
+  margin-bottom: 1rem;
+}
+
+.social_link {
+  border: none;
+  color: $color-hyperlink;
+
+  &:hover {
+    background-color: none;
+    background: none;
+    color: $color-hyperlink-hover;
+  }
+}

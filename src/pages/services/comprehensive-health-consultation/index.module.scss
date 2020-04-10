@@ -1,0 +1,60 @@
+@import "./../../../components/variables";
+
+.lead_container {
+  max-width: $width-blog;
+  margin: 0 auto;
+}
+
+.sign_up {
+  display: flex;
+  background-color: $color-off-white;
+  justify-content: space-around;
+  padding: $se-md;
+  margin: $se-xl 0;
+}
+
+.price {
+  font-weight: 100;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.section {
+  max-width: $width-blog;
+  margin: 0 auto $se-xl auto;
+  padding: 0 $se-sm;
+}
+.program {
+  // padding: $se-md;
+}
+.display_list {
+  list-style-type: disc;
+  font-size: $default-font-size;
+  margin: $se-md 0;
+}
+
+.display_list_item {
+  list-style-position: inside;
+  margin-bottom: $se-xs;
+}
+
+.sign_up_button {
+  text-align: center;
+  margin: $se-md 0 $se-xs 0;
+}
+
+.client_obligations {
+  background-color: $color-off-white;
+  padding: $se-md;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.beyond_stage_3 {
+  background-color: $color-off-white;
+  padding: $se-md;
+}

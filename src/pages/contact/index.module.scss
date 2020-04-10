@@ -1,0 +1,16 @@
+@import "./../../components/variables";
+
+.header {
+  text-align: center;
+  margin-bottom: $se-md;
+}
+.section {
+  color: $color-white;
+  padding: 0 $se-sm;
+}
+.form {
+  background-color: $color-brand-color;
+  padding: $se-md;
+  max-width: $width-blog;
+  margin: 0 auto $se-xl auto;
+}

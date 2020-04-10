@@ -1,0 +1,96 @@
+@import "./variables";
+
+.paragraph {
+  &:not(:last-of-type) {
+    margin-bottom: $se-sm;
+  }
+}
+
+.lead {
+  @extend %lead-text;
+  &:not(:last-of-type) {
+    margin-bottom: $se-sm;
+  }
+}
+
+.super_lead {
+  @extend %lead-text;
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  &:not(:last-of-type) {
+    margin-bottom: $se-sm;
+  }
+}
+
+.h1,
+.h2,
+.h3 {
+  margin-bottom: $se-md;
+}
+.h4,
+.h5,
+.h6 {
+  margin-bottom: $se-sm;
+}
+
+.h1 {
+  padding: $se-lg $se-sm;
+  background-color: $color-off-white;
+}
+
+.blog_heading {
+  @extend .h1;
+  font-size: $default-lead-font-size;
+}
+
+%button_link {
+  position: relative;
+  overflow: hidden;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  font-weight: 800;
+  font-family: inherit;
+  font-size: inherit;
+  padding: $se-xs $se-md;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.25s;
+  border: none;
+
+  &:hover {
+    text-decoration: none;
+    border: none;
+  }
+}
+.button {
+  color: $color-white;
+  background-color: $color-hyperlink;
+  @extend %button_link;
+
+  &:hover {
+    background-color: $color-hyperlink-hover;
+    color: $color-white;
+  }
+  &:active {
+    background-color: $color-okay;
+    color: $color-brand-black;
+  }
+}
+
+.button_inverted {
+  border: solid 2px $color-white;
+  color: $color-white;
+  background-color: transparent;
+  @extend %button_link;
+  &:hover {
+    border: solid 2px $color-white;
+    background-color: $color-white;
+    color: $color-hyperlink;
+  }
+  &:active {
+    background-color: $color-okay;
+    color: $color-brand-black;
+    border: solid 2px $color-okay;
+  }
+}

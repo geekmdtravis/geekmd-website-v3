@@ -1,0 +1,19 @@
+data:
+  key: social-media
+  entries:
+    - key: facebook
+      name: Facebook
+      active: true
+      url: https://www.facebook.com/precisionwellnessdrt/
+    - key: linkedin
+      name: LinkedIn
+      active: true
+      url: https://www.linkedin.com/company/precision-wellness-club
+    - key: twitter
+      name: Twitter
+      active: true
+      url: https://twitter.com/pw_drt
+    - key: instagram
+      name: Instagram
+      active: true
+      url: https://www.instagram.com/pw_drt/

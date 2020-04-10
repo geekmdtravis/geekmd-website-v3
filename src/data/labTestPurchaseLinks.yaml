@@ -1,0 +1,295 @@
+data:
+  key: labs
+  entries:
+    - key: thyroid-with-free-t4
+      name: TSH with Free T4
+      active: true
+      recommended: true
+      description: >-
+        The thyroid is an absolutely essential organ for health and metabolism. Like most hormones, 
+        more is not necessarily better. Balance is key. Too or too much can lead to side effects, 
+        and at the extremes can be life threatening. TSH, or thyroid stimulating hormone, is the 
+        primary hormone we monitor to analyze a persons thyroid function. It comes from the brain 
+        and how much TSH your brain produces is based on feedback from the thyroid itself. T4, or 
+        thyroxine, is the most abundant form of thyroid hormone in your body. This combination will 
+        pickup most potential health concerns and is therefore highly cost effective.
+      panel: true
+      labs:
+        - TSH
+        - T4 (thyroxine), free
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=453
+    - key: cmp
+      name: Comprehensive Metabolic Panel
+      active: true
+      recommended: false
+      description: >-
+        The comprehensive metabolic panel is an incredibly important set of labs.
+        It monitors your kidney health, liver health, pH balance, and can even pickup 
+        evidence of various forms of cancers. Health organs are essential to beginning 
+        an intensive lifestyle overhaul, so this is an absolute must.
+      labs:
+        - Glucose- Serum
+        - Calcium- Serum
+        - Total Protein
+        - Globulin- Serum
+        - Albumin- Serum
+        - Chloride- Serum
+        - Carbon Dioxode (CO2)- Serum
+        - Potassium- Serum
+        - Sodium- Serum
+        - Alanine Aminotransferase (ALT)
+        - Asparatate Aminotransferase (AST)
+        - Alkaline Phosphatase (ALP)
+        - Bilirubin- Serum
+        - Blood Urea Nitrogen (BUN)
+        - Creatinine- Serum
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=454
+    - key: insulin
+      name: Insulin
+      active: true
+      recommended: true
+      description: >-
+        Insulin is an incredibly important hormone. It is essential for moving very important
+        macronutrients in and out of cells. Excesses of insulin relative to what would be 
+        expected could indicate insulin resistance. Insulin resistance is the foundation of 
+        type 2 diabetes, and is associated with many additional medical problems such as 
+        heart attack, stroke, loss of limbs, cancer, and more.  Normally doctors will check 
+        your blood glucose and Hemoglobin A1c in order to assess your diabetes risk. But, 
+        they're often looking too late. You want to catch insulin resistance before it turns 
+        into diabetes, not after.
+      labs:
+        - Insulin
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=455
+    - key: testosterone-total
+      name: Testosterone, Total
+      active: true
+      recommended: true
+      description: >-
+        Testosterone is a vital hormone for both men and women. It influences energy levels, 
+        sleep quality, sex drive, body composition, and muscle-building. Contrary to popular 
+        belief, there is evidence by a recent Veterans Affairs study in males which suggest 
+        levels that are too low, and not treated, are more dangerous to a persons overall 
+        health than being on testosterone replacement therapy. So, if you're found to be low,
+        you should be able to reap the benefits without feeling guilty. Poor lifestyle 
+        conditions and body composition can lead to low testosterone levels.
+      labs:
+        - Testosterone, Total
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=456
+    - key: estradiol
+      name: Estradiol
+      active: true
+      recommended: true
+      description: >-
+        Estradiol is a vital hormone for both men and women. It also influences 
+        energey levels, sex drive, body composition, and more. Men on testosterone replacement
+        therapy are often surprised to learn that low levels of estrogen and high levels of 
+        estrogen can really hurt their life quality, effectively limiting or even nullifying 
+        the benefits of the testosterone replacement therapy. True to form with hormones, 
+        the ideal levels are somewhere in the middle.
+      labs:
+        - Estradiol
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=457
+    - key: hemoglobin-a1c
+      name: Hemoglobin A1c
+      active: true
+      recommended: true
+      description: >-
+        Hemoglobin A1c is a very widely used clinical tool for the diagnosis and 
+        management of diabetes. It's a product of blood sugar interacting with an 
+        oxygen-carrying molecular in your blood called Hemoglobin which we can reverse 
+        engineer to learn your average blood sugar levels.
+      labs:
+        - Hemoglobin A1c
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=458
+    - key: lipid-panel
+      name: Lipid Panel
+      active: true
+      recommended: false
+      description: >-
+        A lipid panel is a set of lab tests looking at how much cholesterol can be found 
+        in the various lipoprotein particles in your body that are responsible for carrying
+        it. Both the total volume and distribution of cholesterol in these lipoprotein 
+        particles can indicate risk for various forms of cardiovascular disease such as 
+        heart attack and stroke. Triglycerides are also included in a lipid panel and they
+        represent free floating fatty particles. High triglyceride levels are also associated 
+        with many poor health outcomes, but one that can be acutely life threatening is severe
+        pancreatitis.
+      labs:
+        - High Density Lipoprotein (HDL) Cholesterol
+        - Low Density Lipoprotein (LDL) Cholesterol
+        - Total Cholesterol
+        - Triglycerides
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=459
+    - key: lipoprotein-a
+      name: Lipoprotein (a)
+      active: true
+      description: >-
+        Lipoprotein (a), pronounced lipoprotein-little-a, is a greatly undervalued tool in 
+        the fight against cardiovascular disease. This little particle alone may explain 
+        why some people with seemingly normal, or close-to-normal, "bad cholesterol" levels
+        end up having unexpected heart attacks and strokes. It's an extremely virulent 
+        lipoprotein in small quantities. And, most people will never have it checked in their 
+        entire lives.
+      recommended: true
+      labs:
+        - Lipoprotein (a)
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=460
+    - key: cbc-with-diff
+      name: Complete Blood Count (CBC) with Differnetial
+      active: true
+      recommended: false
+      description: >-
+        A complete blood count (CBC) with differential looks at the various cells that
+        make their way through your blood stream. They can indicate all kinds of disease
+        including but not limited to anemia, cancer, cirrhosis, and more. They're an 
+        essential lab to check for overall health.
+      labs:
+        - White Blood Cell (WBC) Count- Serum
+        - Neutrophils
+        - Lymphocytes
+        - Basophils
+        - Eosinophils
+        - Monocytes
+        - Red Blood Cells (RBC)- Serum
+        - Hematocrit
+        - Hemoglobin- Serum
+        - Platelets
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=461
+    - key: urinalysis-complete
+      name: Urinalysis, Complete
+      active: true
+      description: >-
+        A urinalysis (UA) allows for the evaluation of many important things in your body. 
+        In some respects, it's redudant. In others, it's a unique screening tool. For example,
+        glucose spilling into the urine from the blood could indicated diabetes and is 
+        therefore redundant. But, blood and blood cells in the urine can indicate anything 
+        from dangerous kidney infections, to cancer, to urinary tract infections, and more.
+      recommended: false
+      labs:
+        - Specific Gravity
+        - pH- Urine
+        - Protein- Urine
+        - Glucose- Urine
+        - Urine Color
+        - WBC Esterase
+        - Ketones- Urine
+        - Occult Blood- Urine
+        - Bilirubin- Urine
+        - Urobilinogen
+        - Nitrite
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=462
+    - key: basic-health-check
+      name: Basic Health Check
+      active: true
+      description: >-
+        The basic health check is an amazing deal as it includes a CMP, CBC with Diff, 
+        UA, Lipid Panel, and Hemoglobin A1c in one panel. It's offered at a massive 
+        discount. This should be a go-to for anybody looking to purchase any of those 
+        items.
+      recommended: true
+      panel: true
+      containedKeys:
+        - cmp
+        - cbc-with-diff
+        - urinalysis-complete
+        - lipid-panel
+        - hemoglobin-a1c
+      labs:
+        - Glucose- Serum
+        - Calcium- Serum
+        - Total Protein
+        - Globulin- Serum
+        - Albumin- Serum
+        - Chloride- Serum
+        - Carbon Dioxode (CO2)- Serum
+        - Potassium- Serum
+        - Sodium- Serum
+        - Alanine Aminotransferase (ALT)
+        - Asparatate Aminotransferase (AST)
+        - Alkaline Phosphatase (ALP)
+        - Bilirubin- Serum
+        - Blood Urea Nitrogen (BUN)
+        - Creatinine- Serum
+        - White Blood Cell (WBC) Count- Serum
+        - Neutrophils
+        - Lymphocytes
+        - Basophils
+        - Eosinophils
+        - Monocytes
+        - Red Blood Cells (RBC)- Serum
+        - Hematocrit
+        - Hemoglobin- Serum
+        - Platelets
+        - Specific Gravity
+        - pH
+        - Protein
+        - Glucose- Urine
+        - Urine Color
+        - WBC Esterase
+        - Ketones
+        - Occult Blood
+        - Bilirubin
+        - Urobilinogen
+        - Nitrite
+        - High Density Lipoprotein (HDL) Cholesterol
+        - Low Density Lipoprotein (LDL) Cholesterol
+        - Total Cholesterol
+        - Triglycerides
+        - Hemoglobin A1c
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=463
+    - key: cardio-iq-advanced-panel
+      name: Cardio IQ Advanced Panel
+      active: true
+      description: >-
+        The Cardio IQ panel from Quest is used to perform a deep-dive into cardiovascular risk.
+        It looks at the basic cholesterol panel, and also for high-risk features of your cholesterol 
+        profile not seein in a traditional, basic, cholesterol panel. Lipoportein (a) and Apolipoprotein B 
+        are included in this panel, as is information about the size and particle count of  your HDL and 
+        LDL particles that can give greater insight into your risk that is hidden in the basic cholesterol 
+        panel.
+      recommended: true
+      panel: true
+      containedKeys:
+        - lipid-panel
+        - lipoprotein-a
+        - apolipoprotein-b
+      labs:
+        - Cholesterol, Total
+        - Triglycerides
+        - HDL
+        - LDL
+        - LDL Particle Number (LDL-P)
+        - HDL, Large
+        - LDL, Small
+        - LDL, Medium
+        - Apolipoprotein B
+        - Lipoprotein (a)
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=464
+    - key: apolipoprotein-b
+      name: Apolipoprotein B (Apo-B)
+      active: true
+      description: >-
+        Apolipoprotein B is a very important molecule. It's found in many of the most atherogenic 
+        (cholesterol-plaque forming) lipoprotein partciles (like LDL). And, it's found in 
+        precisely a 1-to-1 ratio. That is, each bad lipoprotein particle (like LDL) can contain 
+        just one lipoprotein particle, and thus also serves as an excellent proxy measure of the 
+        particle count.
+      recommended: true
+      panel: true
+      labs:
+        - Apolipoprotein B
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=465
+    - key: vitamin-d
+      name: Vitamin D, 25 Hydroxy
+      active: true
+      recommended: false
+      description: >-
+        Vitamin D is actually a steroid hormone. And, a very important one. For quite 
+        a while people have know that Vitamin D has effects on bone density, calcium levels, 
+        and phosphorus levels. However, that's not all. It has also been associated with 
+        improving insulin sensitivity. And, it's been suggested based on some limited research 
+        that it may fight depression, reduce risk of upper-respiratory infection, improve immunity, 
+        and more.
+      labs:
+        - Vitamin D, 25 Hydroxy
+      url: https://healthtestingcenters.idevaffiliate.com/idevaffiliate.php?id=187&url=466

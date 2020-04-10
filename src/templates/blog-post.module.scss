@@ -1,0 +1,73 @@
+@import "./../components/variables";
+
+.section {
+  margin-bottom: $se-xl;
+}
+
+.content {
+  max-width: $width-blog;
+  margin: 0 auto;
+  padding: 0 $se-sm;
+}
+
+.date {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  margin-bottom: $se-md;
+  max-width: $width-blog;
+  margin: 0 auto;
+}
+
+.tags_list {
+  margin: $se-xs 0 $se-sm 0;
+}
+
+.post_content {
+  margin-bottom: $se-md;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: $se-sm;
+  }
+  p {
+    margin-bottom: $se-md;
+    &:last-of-type {
+      margin-bottom: $se-lg;
+    }
+  }
+
+  blockquote > p {
+    margin: 0;
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  %list {
+    margin-bottom: $se-sm;
+  }
+  ul {
+    list-style: disc;
+    @extend %list;
+  }
+
+  ol {
+    list-style: decimal;
+    @extend %list;
+  }
+
+  li {
+    margin-bottom: $se-xs;
+    list-style-position: inside;
+  }
+}
+
+.go_back {
+  text-align: center;
+}

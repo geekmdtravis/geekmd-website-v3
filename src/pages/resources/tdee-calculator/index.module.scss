@@ -1,0 +1,72 @@
+@import "./../../../components/variables";
+.section {
+  padding: 0 $se-sm;
+}
+%container {
+  max-width: $width-blog;
+  width: 100%;
+  margin: 0 auto;
+  padding: $se-sm;
+  margin-bottom: $se-lg;
+}
+.form_container {
+  @extend %container;
+  border: solid 1px rgba(#000, 0.2);
+}
+.container {
+  @extend %container;
+}
+.input_field {
+  margin-bottom: $se-sm;
+  background-color: $color-off-white;
+  width: 100%;
+  max-width: 100%;
+  border: solid 1px rgba(#000, 0.2);
+
+  input,
+  select {
+    width: 100%;
+    padding: $se-sm;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    outline: none;
+    margin: none;
+    font-family: inherit;
+    font-size: 2.2rem;
+  }
+}
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.result {
+  text-align: center;
+  padding: $se-sm;
+  margin-bottom: $se-lg;
+  margin-top: $se-lg;
+}
+
+.result_text {
+  font-weight: 100;
+  font-size: 9rem;
+  line-height: 9rem;
+}
+
+.result_units {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 800;
+}
+
+.bmr {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: $se-xs;
+}

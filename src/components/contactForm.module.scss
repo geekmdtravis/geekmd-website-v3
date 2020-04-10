@@ -1,0 +1,80 @@
+@import "./variables";
+
+.container {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+}
+
+.form_row {
+  width: 100%;
+  display: flex;
+
+  @media only screen and (max-width: 650px) {
+    flex-direction: column;
+  }
+}
+
+.form_field {
+  flex: 1;
+  display: inline-block;
+  margin: 0 $se-sm;
+  padding: $se-sm;
+  border-bottom: solid 1px $color-white;
+
+  input[type="text"],
+  input[type="email"] {
+    font-family: inherit;
+    font-size: $default-font-size * 1.3;
+    color: inherit;
+    width: 100%;
+    border: none;
+    background-color: none;
+    background: none;
+    outline: none;
+
+    &::placeholder {
+      color: inherit;
+    }
+  }
+
+  input[type="text"] {
+    &:not(:first-of-type) {
+      margin-left: 0.2rem;
+    }
+    &:not(:last-of-type) {
+      margin-right: 0.2rem;
+    }
+  }
+}
+
+.message_field {
+  flex: 1;
+  display: inline-block;
+  margin: 0 $se-sm;
+  padding: $se-sm;
+  background-color: rgba($color-white, 0.3);
+  margin-top: $se-sm;
+
+  textarea {
+    font-family: inherit;
+    font-size: $default-font-size * 1.3;
+    color: inherit;
+    width: 100%;
+    border: none;
+    background-color: none;
+    background: none;
+    outline: none;
+
+    &::placeholder {
+      color: inherit;
+    }
+  }
+}
+
+.button {
+  text-align: center;
+  margin: $se-md 0;
+}

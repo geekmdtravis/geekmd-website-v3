@@ -1,0 +1,9 @@
+@import "./variables";
+
+.validation_field {
+  width: 100%;
+  background-color: $color-danger;
+  padding: 0.25rem 0.5rem;
+  color: $color-white;
+  font-weight: 800;
+}

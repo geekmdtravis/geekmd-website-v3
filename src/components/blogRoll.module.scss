@@ -1,0 +1,51 @@
+@import "./variables";
+
+.blogroll {
+  margin: 0 auto;
+  max-width: $width-max;
+  margin-bottom: $se-xl;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  flex: 1;
+  margin: 0 $se-sm $se-md $se-sm;
+  max-width: $width-max / 3.2;
+  min-width: 50rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media only screen and (max-width: 965px) {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+.image {
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading_container {
+  width: 100%;
+  height: 100%;
+}
+.post_heading {
+  font-size: 125%;
+  line-height: 150%;
+  font-family: $default-content-font-family;
+  font-weight: 800;
+  margin-bottom: $se-xs;
+}
+
+.post_date {
+  display: block;
+  font-size: $default-font-size * 0.8;
+}
+
+.tags {
+  padding: $se-xs 0;
+}

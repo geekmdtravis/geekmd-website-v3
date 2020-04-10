@@ -1,0 +1,55 @@
+@import "./variables";
+.reviews {
+}
+.average {
+  text-align: center;
+  max-width: $width-blog;
+  margin: 0 auto $se-md auto;
+}
+.review_container {
+  max-width: $width-blog;
+  padding: $se-sm;
+  margin: 0 auto $se-md auto;
+  border: solid 1px rgba(#000, 0.2);
+  // box-shadow: $default-box-shadow;
+}
+
+.review_heading {
+  font-size: 2.5rem;
+  color: $color-brand-black;
+  text-transform: uppercase;
+  border-bottom: solid 1px rgba($color-black, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: 400px) {
+    flex-direction: column;
+    font-size: 3rem;
+  }
+}
+
+.review_paragraph {
+  padding: $se-xs 0;
+}
+
+.review_url {
+  text-align: right;
+}
+
+.review_subtext {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.review_stars {
+  color: gold;
+}
+
+.review_social_platform {
+  text-transform: lowercase;
+}
+
+.yelp_logo {
+  color: #c41200;
+}

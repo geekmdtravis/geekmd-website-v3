@@ -1,0 +1,81 @@
+data:
+  key: reviews
+  reviews:
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Chad K.
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=U-vzLtI2hPTF5k69u7GlxA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        I had my baseline appointment with Dr. Nesbit yesterday and it 
+        was absolutely amazing.
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Jamie G.
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=KynMuCjAI2WQPs2gaV6tGQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        My first visit was with Dr Nesbit and exceeded all of my 
+        expectations. He was informative and compassionate and 
+        made me feel at ease.
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Jason H.
+      featured: true
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=GE35ftD3d7SgxNw70Py3gw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        I was fortunate to see Dr. Travis Nesbit. I spent what 
+        seemed like almost an hour with this doctor talking 
+        about my medical history and strategizing on my personal 
+        treatment plan. During this time the doctor really 
+        helped me with two things: 1) understanding my holistic 
+        history and symptoms 2) prioritizing my treatment plan 
+        based on my data, my preferences, and his medical 
+        expertise. This made me feel like I'd started a 
+        partnership beyond just being a patient.
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Patrick K.
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=qFQ0u4_YvZkdzfPi6c2tYQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        Dr. Nesbit has a excellent doctor to patient style that 
+        is professional, informative and caring.
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Michael G.
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=d-kn4VJu0M0crzPNbtPRXA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        Dr Travis Nesbit was very courteous and professional. 
+        He went over my results and gave me suggestions and 
+        options for any issues I had.
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Oliver N.
+      featured: true
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=88H-tPwICgRyf-W0vZVEYQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        My doctor, Dr. Travis Nesbit, was knowledgeable about my 
+        various medical conditions and provided insight on treatments 
+        and their impacts / effects.  He was patient, asked 
+        appropriate questions and made me feel at ease.   
+        I could go on but let me conclude by saying, I developed 
+        a trust on the process, advice and results
+    - entry:
+      templateKey: yelp-review
+      organizationKey: forward
+      name: Edwin R.
+      stars: 5
+      url: https://www.yelp.com/biz/forward-newport-beach?hrid=fxGFpiV2wHvSZwHvjqs-lg&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)
+      review: >-
+        Dr Travis showed respect and a genuine interest in 
+        discovering and discussing important health issues.

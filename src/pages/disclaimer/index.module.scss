@@ -1,0 +1,16 @@
+@import "./../../components//variables";
+
+.header {
+  text-align: center;
+  margin-bottom: $se-md;
+}
+
+.section {
+  max-width: $width-blog;
+  margin: 0 auto;
+  margin-bottom: $se-xl;
+  padding: 0 $se-sm;
+}
+
+.text {
+}

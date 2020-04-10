@@ -1,0 +1,17 @@
+@import "./../../components/variables";
+
+.content {
+  max-width: $width-content;
+  margin: 0 auto $se-xl auto;
+  text-align: center;
+}
+.tags_list {
+  list-style: none;
+}
+
+.tags_list_item {
+  display: inline;
+  &:not(:last-of-type) {
+    margin-right: $se-xs;
+  }
+}

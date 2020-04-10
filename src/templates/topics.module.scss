@@ -1,0 +1,23 @@
+@import "./../components/variables";
+
+.section {
+  margin-bottom: $se-xl;
+}
+
+.content {
+  max-width: $width-max;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.post_heading {
+  @extend %lead-text;
+}
+
+.list_item {
+  margin-bottom: $se-sm;
+}
+
+.go_back {
+  text-align: center;
+}
