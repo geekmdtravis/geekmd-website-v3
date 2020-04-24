@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Precision Wellness by Dr. T",
-    titleTemplate: "%s - Precision Wellness by Dr. T",
+    title: "GeekMD",
+    titleTemplate: "%s - GeekMD",
     description:
-      "Precision Wellness by Dr. T, is your path forward to a fitness, longevity, and vitality. Work with Dr. T, a specialist in the field, to understand how to use easy-to-collect biometric and fitness data in the context of your lifestyle to be a better version of you.",
-    url: "https://precisionwellness.club",
-    siteUrl: "https://precisionwellness.club",
+      "GeekMD is the cutting-edge interface between medicine, information technology, and big data.",
+    url: "https://geekmd.io",
+    siteUrl: "https://geekmd.io",
     image: "og_home.jpg", // `/img/` will be prepended to this in the SEO component
     twitterUsername: "@pw_drt"
   },

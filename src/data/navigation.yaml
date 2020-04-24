@@ -26,34 +26,13 @@ data:
       slug: /blog
       active: true
     - entry:
-      key: lifestyle-transformation-boot-camp
-      title: Lifestyle Transformation Boot Camp
-      description: >-
-        Work with Dr. T for three intensive months to 
-        change your life! An exhaustive health review 
-        and weekly health-coaching will take you to the 
-        next level!
-      ogImage: og_before_after_female.jpg
-      slug: /services/lifestyle-transformation-boot-camp
-      active: true
-    - entry:
-      key: comprehensive-health-consultation
-      title: Comprehensive Health & Wellness Consultation
-      description: >-
-        Get an incredibly thorough overview of your current 
-        state of health, plus a detailed, hand-written, 
-        fully customized precision document detailing
-        your current state of health and your next steps.
-      ogImage: og_doc_reviewing_labs.jpg
-      slug: /services/comprehensive-health-consultation
-      active: true
-    - entry:
       key: about
-      title: About Dr. T
+      title: About GeekMD
       description: >-
-        Travis Nesbit, MD (Dr. T) has specialized work 
-        experience and training that allow him to guide 
-        you toward optimal health, fitness, and longevity.
+        Travis Nesbit, MD (GeekMD) has specialized work 
+        experience and training that allows him to serve 
+        as an effective interface between health, information 
+        technology, and big data.
       slug: /about
       active: true
     - entry:
@@ -64,15 +43,6 @@ data:
         And, our blog is a wealth of information. Search 
         our topics list for topics that may interest you here.
       slug: /topics
-      active: true
-    - entry:
-      key: reviews
-      title: Reviews
-      description: >-
-        Dr. T prides himself on being an excellent patient advocate 
-        and communicator. Please take an opportunity to read the
-        reviews and see for yourself.
-      slug: /reviews
       active: true
     - entry:
       key: contact
@@ -104,42 +74,4 @@ data:
         the following on-boarding questionnaire.
       slug: /resources/onboarding-questionnaire
       active: true
-    - entry:
-      key: weekly-update
-      title: Weekly Client Update
-      description: >-
-        All new clients of Dr. T's Precision Wellness 
-        program are required to complete the following 
-        weekly update questionnaire.
-      slug: /resources/weekly-update
-      active: true
-    - entry:
-      key: body-fat-calculator
-      title: Body Fat Calculator
-      description: >-
-        Use the Precision Wellness Navy Body Fat 
-        calculator to estimate your body fat to +/- 3%
-         accuracy using only body measurements!
-      ogImage: og_bodyfat.jpg
-      slug: /resources/body-fat-calculator
-      active: true
-    - entry:
-      key: tdee-calculator
-      title: Calorie (TDEE) Calculator
-      description: >-
-        Use the Precision Wellness total daily energy 
-        expenditure (TDEE) calculator to estimate how
-        many calories you need on any given day.
-      ogImage: og_tdee.jpg
-      slug: /resources/tdee-calculator
-      active: true
-    - entry:
-      key: health-labs
-      title: Recommended Labs
-      description: >-
-        This list of labs contains common and 
-        uncommon lab tests which, when used appropriately, 
-        can help give incredible insight into your health.
-      ogImage: og_labs.jpg
-      slug: /resources/recommended-labs
-      active: true
+    

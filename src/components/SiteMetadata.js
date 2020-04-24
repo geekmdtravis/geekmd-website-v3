@@ -46,14 +46,6 @@ const RetrieveSiteMetadata = () => {
               slug
               active
             }
-            resources {
-              key
-              title
-              description
-              ogImage
-              slug
-              active
-            }
           }
         }
       }

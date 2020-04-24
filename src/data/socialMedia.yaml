@@ -4,16 +4,24 @@ data:
     - key: facebook
       name: Facebook
       active: true
-      url: https://www.facebook.com/precisionwellnessdrt/
+      url: https://www.facebook.com/#
     - key: linkedin
       name: LinkedIn
       active: true
-      url: https://www.linkedin.com/company/precision-wellness-club
+      url: https://www.linkedin.com/company/#
     - key: twitter
       name: Twitter
       active: true
-      url: https://twitter.com/pw_drt
+      url: https://twitter.com/#
     - key: instagram
       name: Instagram
       active: true
-      url: https://www.instagram.com/pw_drt/
+      url: https://www.instagram.com/#
+    - key: kaggle
+      name: Kaggle
+      active: true
+      url: https://www.kaggle.com/#
+    - key: github
+      name: Github
+      active: true
+      url: https://www.github/#

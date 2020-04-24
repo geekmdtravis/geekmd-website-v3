@@ -5,7 +5,9 @@ import {
   faFacebook,
   faLinkedin,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faGithub,
+  faKaggle,
 } from "@fortawesome/free-brands-svg-icons";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,6 +21,10 @@ const parseKey = key => {
       return faTwitter;
     case "instagram":
       return faInstagram;
+    case "github":
+      return faGithub;
+    case "kaggle":
+      return faKaggle
     default:
       return faQuestion;
   }

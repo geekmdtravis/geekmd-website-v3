@@ -16,7 +16,7 @@ const Navbar = () => {
     setNavState({ expanded: !getNavState.expanded });
   const {
     social,
-    navigation: { pages, resources }
+    navigation: { pages }
   } = RetrieveSiteMetadata();
 
   const RenderTopBar = () => (
@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link to={"/"}>
           <PreviewCompatibleImage
             imageInfo={{
-              alt: "Precision Wellness brand logo",
+              alt: "GeekMD brand logo",
               image: brandLogo
             }}
           />
@@ -45,10 +45,6 @@ const Navbar = () => {
               );
             })}
         </ul>
-        <p className={styles.brand_name}>Precision Wellness</p>
-        <p className={styles.doctor_name}>
-          by <em>Dr. T (Travis Nesbit, MD)</em>
-        </p>
       </div>
       <div>
         <button onClick={handleMenuClick} className={styles.navigation}>
@@ -86,22 +82,6 @@ const Navbar = () => {
                   })}
               </ul>
             </div>
-            <div className={styles.content_column}>
-              <p className={styles.column_heading}>Resources</p>
-              <ul className={styles.column_list}>
-                {resources
-                  .filter(p => p.active)
-                  .map(p => {
-                    return (
-                      <li key={p.key} className={styles.column_list_item}>
-                        <Link to={p.slug} className={styles.column_list_link}>
-                          {p.title}
-                        </Link>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div>
           </div>
         </div>
       </div>
@@ -113,7 +93,7 @@ export default Navbar;
 
 const query = graphql`
   query NavbarQuery {
-    file(relativePath: { eq: "brand_icon_light.jpg" }) {
+    file(relativePath: { eq: "geek_md_logo.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 150) {
           ...GatsbyImageSharpFluid_tracedSVG

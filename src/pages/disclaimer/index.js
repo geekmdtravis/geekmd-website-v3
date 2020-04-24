@@ -48,17 +48,17 @@ const DisclaimerPage = () => {
             warranties, whether expressed or implied.
           </Paragraph>
           <Paragraph>
-            To the Fullest extent permitted by law, Precision Wellness{" "}
+            To the Fullest extent permitted by law, GeekMD{" "}
             <em>
               DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESSED OR IMPLIED
             </em>
             , regarding any information or other material displayed on this
-            website, whether authored by Precision Wellness or others; and the
+            website, whether authored by GeekMD or others; and the
             operation of this website, including any warranty of merchantability
             and/or fitness for a particular purpose.
           </Paragraph>
           <Paragraph>
-            Precision Wellness makes no representation or warranty as to the
+            GeekMD makes no representation or warranty as to the
             reliability, accuracy, timeliness, usefulness, adequacy or
             suitability of the information contained in this website and does
             not represent and/or warrant against human or machine error,
@@ -90,7 +90,7 @@ const DisclaimerPage = () => {
               products prior to consulting first with a physician or healthcare
               provider.
             </em>{" "}
-            Precision Wellness disclaims any liability based on information
+            GeekMD disclaims any liability based on information
             provided in this website.
           </Paragraph>
         </div>

@@ -53,20 +53,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className={styles.column}>
-          <p className={styles.heading}>Resources</p>
-          <ul>
-            {navigation.resources
-              .filter(r => r.active)
-              .map(r => {
-                return (
-                  <li className={styles.social_link_item} key={r.key}>
-                    <Link to={r.slug}>{r.title}</Link>
-                  </li>
-                )
-              })}
-          </ul>
-        </div>
-        <div className={styles.column}>
           <p className={styles.heading}>Contact</p>
           <p>
             <span className={styles.address_line}>{street}</span>
@@ -83,8 +69,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copy}>
-        Copyright {new Date().getFullYear()} Travis Nesbit, MD of{" "}
-        <Link to="https://geekmd.io">GeekMD</Link> offering the service{" "}
+        Copyright {new Date().getFullYear()}{" "}
         <Link to="/">{siteTitle}</Link>. Site developed in association with{" "}
         <Link to="https://spectertechnology.com/">Specter Technology</Link>
       </div>
