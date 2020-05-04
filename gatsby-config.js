@@ -22,14 +22,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "2601307649930098",
+        pixelId: "3057817754240911",
         trackViewContent: false, // skip track ViewContent on route update
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-158583798-1",
+        trackingId: "UA-165393789-1",
         head: true,
       },
     },
