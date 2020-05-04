@@ -4,19 +4,19 @@ data:
     - key: facebook
       name: Facebook
       active: true
-      url: https://www.facebook.com/#
+      url: https://www.facebook.com/geekmdllc
     - key: linkedin
       name: LinkedIn
       active: true
-      url: https://www.linkedin.com/company/#
+      url: https://www.linkedin.com/company/geekmd-llc/
     - key: twitter
       name: Twitter
       active: true
-      url: https://twitter.com/#
+      url: https://twitter.com/geekmdio
     - key: instagram
       name: Instagram
       active: true
-      url: https://www.instagram.com/#
+      url: https://www.instagram.com/geekmdio/
     - key: kaggle
       name: Kaggle
       active: true
