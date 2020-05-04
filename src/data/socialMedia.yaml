@@ -20,7 +20,7 @@ data:
     - key: kaggle
       name: Kaggle
       active: true
-      url: https://twitter.com/geekmdio
+      url: https://www.kaggle.com/geekmd
     - key: github
       name: Github
       active: true
