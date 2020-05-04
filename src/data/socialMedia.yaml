@@ -20,8 +20,8 @@ data:
     - key: kaggle
       name: Kaggle
       active: true
-      url: https://www.kaggle.com/#
+      url: https://twitter.com/geekmdio
     - key: github
       name: Github
       active: true
-      url: https://www.github/#
+      url: https://github.com/geekmdtravis

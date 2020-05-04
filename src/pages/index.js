@@ -13,18 +13,6 @@ import {
   Paragraph,
   Heading1,
 } from "./../components/PageElements"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faHeartbeat,
-  faCapsules,
-  faSyringe,
-  faXRay,
-  faVials,
-  faRunning,
-  faDumbbell,
-  faAppleAlt,
-  faGraduationCap,
-} from "@fortawesome/free-solid-svg-icons"
 import RetrieveSiteMetadata from "./../components/SiteMetadata"
 import styles from "./index.module.scss"
 import ContactForm from "../components/ContactForm"
@@ -68,6 +56,20 @@ const IndexPage = () => {
           medicine, GeekMD brings the <em>range</em> and <em>depth</em> of
           knowledge necessary to get things done.{" "}
         </Paragraph>
+      </section>
+      <section className={styles.section}>
+        <Heading2 centered={true}>
+          Contact Geek<em>MD</em>
+        </Heading2>
+        <div className={styles.contact_content}>
+          <ContactForm></ContactForm>
+        </div>
+      </section>
+      <section className={styles.section}>
+        <div className={styles.newsletter_content}>
+          <Heading2 centered={true}>Sign Up For the Newsletter</Heading2>
+        </div>
+        <Newsletter />
       </section>
     </Layout>
   )
