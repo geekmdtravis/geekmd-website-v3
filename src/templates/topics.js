@@ -1,31 +1,31 @@
-import React from "react";
-import { Heading1, Link } from "./../components/PageElements";
-import { first, kebabCase } from "lodash";
-import BlogRoll from "./../components/BlogRoll";
-import { graphql } from "gatsby";
-import Layout from "../components/Layout";
-import GetSiteMetadata from "./../components/SiteMetadata";
-import SEO from "./../components/SEO";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import React from "react"
+import { Heading1, Link } from "./../components/PageElements"
+import { first, kebabCase } from "lodash"
+import BlogRoll from "./../components/BlogRoll"
+import { graphql } from "gatsby"
+import Layout from "../components/Layout"
+import GetSiteMetadata from "./../components/SiteMetadata"
+import SEO from "./../components/SEO"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons"
 
-import styles from "./topics.module.scss";
+import styles from "./topics.module.scss"
 
 const TagRoute = ({ data, pageContext }) => {
   const {
-    navigation: { pages }
-  } = GetSiteMetadata();
-  const tag = pageContext.tag;
-  const totalCount = data.allMarkdownRemark.totalCount;
+    navigation: { pages },
+  } = GetSiteMetadata()
+  const tag = pageContext.tag
+  const totalCount = data.allMarkdownRemark.totalCount
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-  } tagged with “${tag}”`;
+  } tagged with “${tag}”`
 
   return (
     <Layout>
       <SEO
         title={tagHeader}
-        description={`View all of the blog posts on the Precision Wellness website which are related to the topic "${tag.toLowerCase()}".`}
+        description={`View all of the blog posts on the GeekMD website which are related to the topic "${tag.toLowerCase()}".`}
         pathname={`${
           first(pages.filter(p => p.key === "topics")).slug
         }/${kebabCase(tag)}`}
@@ -44,10 +44,10 @@ const TagRoute = ({ data, pageContext }) => {
         </div>
       </section>
     </Layout>
-  );
-};
+  )
+}
 
-export default TagRoute;
+export default TagRoute
 
 export const tagPageQuery = graphql`
   query TagPage($tag: String) {
@@ -86,4 +86,4 @@ export const tagPageQuery = graphql`
       }
     }
   }
-`;
+`

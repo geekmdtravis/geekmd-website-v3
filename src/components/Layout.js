@@ -33,9 +33,9 @@ const nonExternalAddressList = [
   "192.0.1.",
   "192.0.2.",
   "192.168.",
-  "precisionwellness.club",
-  "development.precisionwellness.club",
-  "www.precisionwellness.club",
+  "geekmd.io",
+  "development.geekmd.io",
+  "www.geekmd.io",
 ]
 
 const Layout = ({ children }) => {
@@ -43,7 +43,6 @@ const Layout = ({ children }) => {
     let anchors = document.getElementsByTagName("a")
 
     Array.from(anchors).forEach(a => {
-
       connectionProtocols.forEach(connectionProtocol => {
         nonExternalAddressList.forEach(address => {
           if (

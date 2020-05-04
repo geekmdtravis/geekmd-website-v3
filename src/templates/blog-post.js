@@ -44,7 +44,7 @@ export const BlogPostTemplate = ({
         <div className={styles.date}>
           {date} by{" "}
           <Link to={first(pages.filter(p => p.key === "about")).slug}>
-            Travis Nesbit, MD (Dr. T)
+            Travis Nesbit, MD (GeekMD)
           </Link>
         </div>
         <div className={styles.lead}>

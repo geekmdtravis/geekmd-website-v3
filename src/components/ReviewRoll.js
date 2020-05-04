@@ -1,47 +1,47 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { graphql, useStaticQuery } from "gatsby";
-import { orderBy } from "lodash";
+import React from "react"
+import PropTypes from "prop-types"
+import { graphql, useStaticQuery } from "gatsby"
+import { orderBy } from "lodash"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faChevronCircleRight,
   faStar,
-  faQuestion
-} from "@fortawesome/free-solid-svg-icons";
-import { faYelp } from "@fortawesome/free-brands-svg-icons";
+  faQuestion,
+} from "@fortawesome/free-solid-svg-icons"
+import { faYelp } from "@fortawesome/free-brands-svg-icons"
 
-import { SuperLead, Link } from "./PageElements";
+import { SuperLead, Link } from "./PageElements"
 
-import styles from "./reviewRoll.module.scss";
+import styles from "./reviewRoll.module.scss"
 
 const ReviewRoll = ({
   count = 5,
   featuredOnly = false,
-  hideAverage = false
+  hideAverage = false,
 }) => {
   const {
     dataYaml: {
-      data: { reviews }
-    }
-  } = useStaticQuery(query);
+      data: { reviews },
+    },
+  } = useStaticQuery(query)
 
   const getAverageReview = () => {
-    const count = reviews.length;
-    let sum = 0;
+    const count = reviews.length
+    let sum = 0
 
     reviews.forEach(r => {
-      sum += r.stars;
-    });
+      sum += r.stars
+    })
 
-    return (sum / count).toFixed(1);
-  };
+    return (sum / count).toFixed(1)
+  }
 
   const filteredReviews = orderBy(
     featuredOnly ? reviews.filter(r => r.featured) : reviews,
     ["stars"],
     ["desc"]
-  ).splice(0, count != null ? count : 100);
+  ).splice(0, count != null ? count : 100)
 
   return (
     <div className={styles.reviews}>
@@ -64,7 +64,7 @@ const ReviewRoll = ({
               className={styles.review_subtext}
               hidden={r.organizationKey === "precision-wellness"}
             >
-              This review was written regarding Dr. T when he was at{" "}
+              This review was written regarding Travis Nesbit, MD when he was at{" "}
               <RenderOrganizationLink organizationKey={r.organizationKey} />
             </div>
 
@@ -78,53 +78,53 @@ const ReviewRoll = ({
               </Link>
             </p>
           </div>
-        );
+        )
       })}
     </div>
-  );
-};
+  )
+}
 
 ReviewRoll.propTypes = {
   count: PropTypes.number,
   featuredOnly: PropTypes.bool,
-  hideAverage: PropTypes.bool
-};
+  hideAverage: PropTypes.bool,
+}
 
-export default ReviewRoll;
+export default ReviewRoll
 
 const RenderStars = ({ count }) => {
-  const boundedCount = count >= 5 ? 5 : count;
-  let stars = [];
+  const boundedCount = count >= 5 ? 5 : count
+  let stars = []
   for (let i = 0; i < boundedCount; i++) {
     stars.push(
       <span key={i}>
         <FontAwesomeIcon icon={faStar} />
       </span>
-    );
+    )
   }
-  return <div className={styles.review_stars}>{stars}</div>;
-};
+  return <div className={styles.review_stars}>{stars}</div>
+}
 
 const RenderOrganizationLink = ({ organizationKey }) => {
   switch (organizationKey) {
     case "forward":
-      return <Link to="https://goforward.com">Forward</Link>;
+      return <Link to="https://goforward.com">Forward</Link>
     default:
-      return <Link to="/">Unknown Organization</Link>;
+      return <Link to="/">Unknown Organization</Link>
   }
-};
+}
 
 const RenderSocialMediaIcon = ({ templateKey }) => {
-  let faIcon = null;
-  let socialMediaPlatform = "Unknown";
+  let faIcon = null
+  let socialMediaPlatform = "Unknown"
   switch (templateKey) {
     case "yelp-review":
-      faIcon = faYelp;
-      socialMediaPlatform = "yelp";
-      break;
+      faIcon = faYelp
+      socialMediaPlatform = "yelp"
+      break
     default:
-      faIcon = faQuestion;
-      break;
+      faIcon = faQuestion
+      break
   }
   return (
     <span className={styles.review_social_platform}>
@@ -133,8 +133,8 @@ const RenderSocialMediaIcon = ({ templateKey }) => {
       </span>
       {` ${socialMediaPlatform}`}
     </span>
-  );
-};
+  )
+}
 
 const query = graphql`
   query ReviewRollQuery {
@@ -152,4 +152,4 @@ const query = graphql`
       }
     }
   }
-`;
+`

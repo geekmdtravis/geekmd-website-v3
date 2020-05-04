@@ -8,9 +8,8 @@ data:
       key: home
       title: Home Page
       description: >-
-        The Precision Wellness program combines health 
-        coaching, personal training, and medical knowledge 
-        to help you achieve fitness, vitality, and longevity.
+        GeekMD (Travis Nesbit, MD) offers solutions to problems that exist at
+        the interface of health and technology.
       ogImage: og_home.jpg
       slug: /
       active: true
@@ -19,8 +18,8 @@ data:
       title: Blog Posts
       description: >-
         Want to learn more about improving your health? 
-        Read Dr. T's Precision Wellness Blog where personal 
-        training, health coaching, and medical knowledge
+        Read the Geek MD's Blog where personal 
+        information technology solutions and  medical knowledge
          are combined.
       ogImage: og_blog.jpg
       slug: /blog
@@ -39,9 +38,8 @@ data:
       key: topics
       title: Blog Topics
       description: >-
-        Dr. T's Precision Wellness Program changes lives. 
-        And, our blog is a wealth of information. Search 
-        our topics list for topics that may interest you here.
+        GeekMD's skills and solutions offer great value. In his blogs, he shares much of 
+        what he has learned with eager learners.
       slug: /topics
       active: true
     - entry:
@@ -50,8 +48,7 @@ data:
       description: >-
         Feel free to contact us! We would love to hear 
         from you whether you've got questions about 
-        Dr. T, his Precision Wellness program, or any 
-        other topic.
+        GeekMD, the services offered, or any other topic.
       slug: /contact
       active: true
     - entry:
@@ -69,9 +66,5 @@ data:
       key: onboarding-questionnaire
       title: Onboarding Questionnaire
       description: >-
-        All new clients of Dr. T's Precision 
-        Wellness program are required to complete 
-        the following on-boarding questionnaire.
-      slug: /resources/onboarding-questionnaire
+        REMOVE ENTRY
       active: true
-    

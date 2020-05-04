@@ -1,7 +1,7 @@
-# Precision Wellness by Dr. T
+# GeekMD, LLC Website
 A Gatsby + Netlify CMS Starter
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f95e57e-abe7-447a-95a5-fee4e80c81d4/deploy-status)](https://app.netlify.com/sites/precisionwellnessclub-production/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f95e57e-abe7-447a-95a5-fee4e80c81d4/deploy-status)](https://app.netlify.com/sites/geekmd/deploys)
 
 **Note:** This website is based off of the starter [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
@@ -29,8 +29,8 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
 ```
-$ git clone git@github.com:geekmdtravis/precision-wellness.git
-$ cd precision-wellness
+$ git clone git@https://github.com/geekmdtravis/geekmd-website-v3.git
+$ cd geekmd-website-v3
 $ yarn
 $ netlify dev # or ntl dev
 ```

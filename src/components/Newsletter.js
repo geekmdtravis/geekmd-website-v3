@@ -69,7 +69,7 @@ const Newsletter = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://precisionwellness.club/thank-you/"
+          value="https://geekmd.io/thank-you/"
         />
         <div className={styles.form_button}>
           <InputSubmitButton

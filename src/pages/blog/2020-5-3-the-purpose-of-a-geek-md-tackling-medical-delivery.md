@@ -137,7 +137,7 @@ between health care and technology who are appropriately trained for the task.
 
 I (Travis Nesbit, MD) have experience in traditional hospital systems, traditional outpatient medical systems, executive
 health systems, health tech primary care start-up's, occupational medicine, urgent care, and telemedicine. That's a very broad, yet complimentary, clinical skillset. Additionally, I have experience developing full-stack software solutions in
-several different programming languages, and extensive knowledge of information technology solutions in both Windows and Linux/Unix based systems, and is currently pursuing a masters level science degree in a relevant field.
+several different programming languages, and extensive knowledge of information technology solutions in both Windows and Linux/Unix based systems, and am currently pursuing a masters level science degree in a relevant field.
 
 I am relentlessly committed to leveraging this skillset and passion for the improvement of health care delivery. It is
 my passion and purpose. And, if you have a problem and want to collaborate, please reach out through the [contact page](https://geekmd.io/contact).

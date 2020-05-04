@@ -322,7 +322,7 @@ const ContactForm = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://precisionwellness.club/thank-you/"
+          value="https://geekmd.io/thank-you/"
         />
         <div className={styles.button}>
           <InputSubmitButtonInverted
