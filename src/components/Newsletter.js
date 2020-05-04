@@ -1,41 +1,41 @@
-import React, { useState } from "react";
-import EmailValidator from "email-validator";
+import React, { useState } from "react"
+import EmailValidator from "email-validator"
 
-import { InputSubmitButton } from "./PageElements";
-import { ValidationField } from "./Validation";
+import { InputSubmitButton } from "./PageElements"
+import { ValidationField } from "./Validation"
 
-import styles from "./newsletter.module.scss";
+import styles from "./newsletter.module.scss"
 
 const Newsletter = () => {
   const [getPageState, setPageState] = useState({
     form: {
       email: { value: "", touched: false, blur: false, valid: false },
-      valid: false
-    }
-  });
+      valid: false,
+    },
+  })
 
   const assessFormValidity = () => {
-    let tmp = { ...getPageState };
-    tmp.form.valid = tmp.form.email.valid;
-    setPageState(tmp);
-  };
+    let tmp = { ...getPageState }
+    tmp.form.valid = tmp.form.email.valid
+    setPageState(tmp)
+  }
   const handleEmailOnChange = event => {
-    let tmp = { ...getPageState };
-    tmp.form.email.touched = true;
-    tmp.form.email.value = event.target.value;
-    tmp.form.email.valid = EmailValidator.validate(event.target.value);
-    setPageState(tmp);
-    assessFormValidity();
-  };
+    let tmp = { ...getPageState }
+    tmp.form.email.touched = true
+    tmp.form.email.value = event.target.value
+    tmp.form.email.valid = EmailValidator.validate(event.target.value)
+    setPageState(tmp)
+    assessFormValidity()
+  }
   const handleEmailOnBlur = () => {
-    const tmp = { ...getPageState };
-    tmp.form.email.blur = true;
-    setPageState(tmp);
-    assessFormValidity();
-  };
+    const tmp = { ...getPageState }
+    tmp.form.email.blur = true
+    setPageState(tmp)
+    assessFormValidity()
+  }
 
-  const handleEmailOnMouseOut = () => handleEmailOnBlur;
-  const handleEmailOnKeyDown = (event) => handleEmailOnChange(event);
+  const handleEmailOnMouseOut = () => handleEmailOnBlur
+  const handleEmailOnKeyDown = event => handleEmailOnChange(event)
 
   return (
     <div className={styles.container}>
@@ -43,7 +43,7 @@ const Newsletter = () => {
         name="newsletter_form"
         className={styles.form}
         method="POST"
-        action="https://formspree.io/mjvwzyan"
+        action="https://formspree.io/xaypybnd"
       >
         <ValidationField
           isHidden={
@@ -81,7 +81,7 @@ const Newsletter = () => {
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default Newsletter;
+export default Newsletter

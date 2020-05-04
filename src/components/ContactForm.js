@@ -237,7 +237,7 @@ const ContactForm = () => {
         name="primary_contact_form"
         className={styles.form}
         method="POST"
-        action="https://formspree.io/mqkqjpga"
+        action="https://formspree.io/xnqgqznd"
       >
         <div className={styles.form_row}>
           <div className={styles.form_field}>

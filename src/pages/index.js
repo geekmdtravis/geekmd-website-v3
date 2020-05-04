@@ -48,19 +48,15 @@ const IndexPage = () => {
       <section className={styles.section}>
         <SuperLead>
           You've got health data and health IT challenges. Travis Nesbit, MD
-          (GeekMD) brings you the competence you need.
+          (GeekMD) brings you the competence you need. It really doesn't matter
+          what the task is. When you've got a question or a problem that lives
+          on the interface of information technology and medicine, GeekMD brings
+          the <em>range</em> and <em>depth</em> of knowledge necessary to get
+          things done.{" "}
         </SuperLead>
-        <Paragraph>
-          It really doesn't matter what the task is. When you've got a question
-          or a problem that lives on the interface of information technology and
-          medicine, GeekMD brings the <em>range</em> and <em>depth</em> of
-          knowledge necessary to get things done.{" "}
-        </Paragraph>
       </section>
       <section className={styles.section}>
-        <Heading2 centered={true}>
-          Contact Geek<em>MD</em>
-        </Heading2>
+        <Heading2 centered={true}>Contact GeekMD</Heading2>
         <div className={styles.contact_content}>
           <ContactForm></ContactForm>
         </div>
