@@ -6,7 +6,7 @@ title: >-
 date: 2020-05-03T12:36:10.000Z
 description: >-
   A medical doctor who fancies himself a geek rather than a simple nerd  may
-  come as a mind-numbing shock to some you. But, it's I am one such person. And,
+  come as a mind-numbing shock to some you. But, I am one such person. And,
   there is quite a lot of  need for such people. We'll discuss a little bit more
   about why here.
 featuredpost: false
