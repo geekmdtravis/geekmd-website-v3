@@ -12,11 +12,11 @@ data:
     - key: twitter
       name: Twitter
       active: true
-      url: https://twitter.com/geekmdio
+      url: https://twitter.com/geekmdllc
     - key: instagram
       name: Instagram
       active: true
-      url: https://www.instagram.com/geekmdio/
+      url: https://www.instagram.com/geekmdllc/
     - key: kaggle
       name: Kaggle
       active: true
@@ -24,4 +24,4 @@ data:
     - key: github
       name: Github
       active: true
-      url: https://github.com/geekmdtravis
+      url: https://github.com/geekmdllc

@@ -7,7 +7,7 @@ module.exports = {
     url: "https://geekmd.io",
     siteUrl: "https://geekmd.io",
     image: "og_home.jpg", // `/img/` will be prepended to this in the SEO component
-    twitterUsername: "@pw_drt",
+    twitterUsername: "@geekmdllc",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
