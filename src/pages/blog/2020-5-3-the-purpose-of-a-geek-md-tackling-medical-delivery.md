@@ -38,7 +38,7 @@ The [YourDictionary.com](https://www.yourdictionary.com/geek) definition of a ge
 
 > a slang word for a computer expert, someone who loves computers or someone who is socially or physically awkward.
 
-There are many other definitions, mostly pejorative. However, this is the most appropriate in a modern context.
+There are many other definitions, mostly pejorative. However, the first half of this definition referencing the love for computers is the most appropriate in a modern context.
 
 ## Background
 
@@ -48,8 +48,7 @@ Unfortunately, **people tend to hate going to the doctors office**. And, for goo
 
 The medical staff are often rushed and/or grumpy, people have to wait long periods of time, the care is subpar, and it costs an arm-and a leg to get these incredibly frustrating services. What is there to like? The claim that it sucks is not an exaggeration.
 
-> Three main categories of reasons for avoiding medical care were identified. First, over one-third of participants (33.3% of 1,369) reported unfavorable evaluations of seeking medical care, such as factors related to physicians, health care organizations, and effective concerns. Second, a subset of
-> participants reported low perceived need to seek medical care (12.2%),
+> Three main categories of reasons for avoiding medical care were identified. First, over one-third of participants (33.3% of 1,369) reported unfavorable evaluations of seeking medical care, such as factors related to physicians, health care organizations, and effective concerns. Second, a subset of participants reported low perceived need to seek medical care (12.2%),
 > often because they expected their illness or symptoms to improve over time
 > (4.0%). Third, many participants reported traditional barriers to medical
 > care (58.4%), such as high cost (24.1%), no health insurance (8.3%), and
@@ -71,8 +70,7 @@ So, not only do patients hate it, so do doctors. In fact, it's been reported abo
 
 We can wax philosophical all day along about shrinking costly, convoluted, and often damaging bureaucracies. But, it really doesn't accomplish much. The result is almost inevitably the same: they grow, not shrink.
 
-With this in mind, we're stuck with the fact that administrative and other non-clinical burden's continue to increase over time. Human's can only work so fast! Something else has to give. The possible human solutions are: clinicians will work longer hours to see more people, people will spend even less time with clinicians, or some combination of those
-two things. Look at what we have here. Again, **this solutions sucks!**
+With this in mind, we're stuck with the fact that administrative and other non-clinical burden's continue to increase over time. Human's can only work so fast! Something else has to give. The possible human solutions are: clinicians will work longer hours to see more people, people will spend even less time with clinicians, or some combination of those two things. Look at what we have here. Again, **this solutions sucks!**
 
 ### Humans can create the answer, but they cannot execute it
 
