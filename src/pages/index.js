@@ -67,7 +67,7 @@ const IndexPage = () => {
         </div>
         <Newsletter />
       </section>
-
+      {/* Remove if not working */}
       <div
         class="calendly-inline-widget"
         data-url="https://calendly.com/geekmdtravis/15min?primary_color=009bff"
