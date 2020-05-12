@@ -67,6 +67,16 @@ const IndexPage = () => {
         </div>
         <Newsletter />
       </section>
+      {/* Remove if not working */}
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/geekmdtravis/15min?primary_color=009bff"
+        style={{ minWidth: "320px", height: "630px", width: "100%" }}
+      ></div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+      ></script>
     </Layout>
   )
 }
