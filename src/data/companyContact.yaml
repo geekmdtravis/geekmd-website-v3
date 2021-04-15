@@ -1,9 +1,11 @@
 data:
   key: company-contact
+  name: GeekMD LLC
   email: travis@geekmd.io
   phone: (949) 529-0951
   address:
-    street: P.O. Box 4067
-    city: Irvine
+    street1: PMB 5039
+    street2: 201 E Center St #112
+    city: Anaheim
     state: California
-    zip: 92616
+    zip: 92805

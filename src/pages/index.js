@@ -40,19 +40,22 @@ const IndexPage = () => {
         image={homeMetadata.ogImage}
       />
       <header>
-        <PreviewCompatibleImage imageInfo={{ alt: "Hero", image: heroImage }} />
         <Heading1>
-          geek<em>md</em> == competence
+          Geek<em>MD</em>
         </Heading1>
+        <div className={styles.hero}>
+          <PreviewCompatibleImage
+            imageInfo={{ alt: "Hero", image: heroImage }}
+          />
+        </div>
       </header>
       <section className={styles.section}>
         <SuperLead>
-          You've got health data and health IT challenges. Travis Nesbit, MD
-          (GeekMD) brings you the competence you need. It really doesn't matter
-          what the task is. When you've got a question or a problem that lives
-          on the interface of information technology and medicine, GeekMD brings
-          the <em>range</em> and <em>depth</em> of knowledge necessary to get
-          things done.{" "}
+          Health is hard. Technology is hard. Bringing the two together has
+          proven monumentally challenging. But, those challenges can be overcome
+          with the right skillset. Travis Nesbit, MD (the <i>Geek MD</i>) brings
+          the <em>range of skills</em> and <em>depth of knowledge</em> necessary
+          to solve complex problems at scale.
         </SuperLead>
       </section>
       <section className={styles.section}>

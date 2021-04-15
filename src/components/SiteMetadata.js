@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby"
 
 const RetrieveSiteMetadata = () => {
   const data = useStaticQuery(
@@ -18,8 +18,10 @@ const RetrieveSiteMetadata = () => {
           data {
             email
             phone
+            name
             address {
-              street
+              street1
+              street2
               city
               state
               zip
@@ -50,14 +52,14 @@ const RetrieveSiteMetadata = () => {
         }
       }
     `
-  );
-  const { site, contact, social, navigation } = data;
+  )
+  const { site, contact, social, navigation } = data
   return {
     site: site.siteMetadata,
     contact: contact.data,
     social: social.data.entries,
-    navigation: navigation.data
-  };
-};
+    navigation: navigation.data,
+  }
+}
 
-export default RetrieveSiteMetadata;
+export default RetrieveSiteMetadata
