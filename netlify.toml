@@ -3,4 +3,5 @@
   command = "npm run build"
   functions = "lambda"
 [build.environment]
-  NODE_VERSION=12.22.1
+  NODE_VERSION = "12.22.1"
+  NPM_VERSION = "6.14.12"
