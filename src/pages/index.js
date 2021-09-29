@@ -42,41 +42,16 @@ const IndexPage = () => {
       <header>
         <PreviewCompatibleImage imageInfo={{ alt: "Hero", image: heroImage }} />
         <Heading1>
-          geek<em>md</em> == competence
+          Hello, world! <em>^_^</em>
         </Heading1>
       </header>
       <section className={styles.section}>
         <SuperLead>
-          You've got health data and health IT challenges. Travis Nesbit, MD
-          (GeekMD) brings you the competence you need. It really doesn't matter
-          what the task is. When you've got a question or a problem that lives
-          on the interface of information technology and medicine, GeekMD brings
-          the <em>range</em> and <em>depth</em> of knowledge necessary to get
-          things done.{" "}
+          I don't have much to talk about at this time. Quite busy with{" "}
+          <em>life stuff</em>. So, take a peek at my About page and look me up
+          on LinkedIn to say hi!
         </SuperLead>
       </section>
-      <section className={styles.section}>
-        <Heading2 centered={true}>Contact GeekMD</Heading2>
-        <div className={styles.contact_content}>
-          <ContactForm></ContactForm>
-        </div>
-      </section>
-      <section className={styles.section}>
-        <div className={styles.newsletter_content}>
-          <Heading2 centered={true}>Sign Up For the Newsletter</Heading2>
-        </div>
-        <Newsletter />
-      </section>
-      {/* Remove if not working */}
-      <div
-        class="calendly-inline-widget"
-        data-url="https://calendly.com/geekmdtravis/15min?primary_color=009bff"
-        style={{ minWidth: "320px", height: "630px", width: "100%" }}
-      ></div>
-      <script
-        type="text/javascript"
-        src="https://assets.calendly.com/assets/external/widget.js"
-      ></script>
     </Layout>
   )
 }

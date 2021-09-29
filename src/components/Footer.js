@@ -55,13 +55,13 @@ const Footer = () => {
         <div className={styles.column}>
           <p className={styles.heading}>Contact</p>
           <p>
-            <span className={styles.address_line}>{street}</span>
+            {/* <span className={styles.address_line}>{street}</span>
             <span className={styles.address_line}>
               {`${city}, ${state} ${zip}`}
             </span>
             <span className={styles.address_line}>
               <Link to={`tel:${phone}`}>{phone}</Link>
-            </span>
+            </span> */}
             <span className={styles.address_line}>
               <Link to={`mailto:${email}`}>{email}</Link>
             </span>
@@ -69,8 +69,8 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.copy}>
-        Copyright {new Date().getFullYear()}{" "}
-        <Link to="/">{siteTitle}</Link>. Site developed in association with{" "}
+        Copyright {new Date().getFullYear()} <Link to="/">{siteTitle}</Link>.
+        Site developed in association with{" "}
         <Link to="https://spectertechnology.com/">Specter Technology</Link>
       </div>
     </footer>
