@@ -41,7 +41,7 @@ const IndexPage = () => {
       />
       <header>
         <Heading1>
-          Geek<em>MD</em>
+          Hello, world! <em>^_^</em>
         </Heading1>
         <div className={styles.hero}>
           <PreviewCompatibleImage
@@ -51,24 +51,10 @@ const IndexPage = () => {
       </header>
       <section className={styles.section}>
         <SuperLead>
-          Health is hard. Technology is hard. Bringing the two together has
-          proven monumentally challenging. But, those challenges can be overcome
-          with the right skillset. Travis Nesbit, MD (the <i>Geek MD</i>) brings
-          the <em>range of skills</em> and <em>depth of knowledge</em> necessary
-          to solve complex problems at scale.
+          I don't have much to talk about at this time. Quite busy with{" "}
+          <em>life stuff</em>. So, take a peek at my About page and look me up
+          on LinkedIn to say hi!
         </SuperLead>
-      </section>
-      <section className={styles.section}>
-        <Heading2 centered={true}>Contact GeekMD</Heading2>
-        <div className={styles.contact_content}>
-          <ContactForm></ContactForm>
-        </div>
-      </section>
-      <section className={styles.section}>
-        <div className={styles.newsletter_content}>
-          <Heading2 centered={true}>Sign Up For the Newsletter</Heading2>
-        </div>
-        <Newsletter />
       </section>
     </Layout>
   )

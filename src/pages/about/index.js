@@ -23,27 +23,39 @@ const AboutPage = () => {
       <Heading1>About Page</Heading1>
       <section className={styles.section}>
         <Paragraph>
-          This section is under development, so here's a copy-paste from my
-          LinkedIn page.
+          My name is <em>Travis Nesbit</em> and I am a software developer and
+          medical doctor specializing in internal medicine.{" "}
+        </Paragraph>
+        <Paragraph>
+          At present, I do not see too many patients. I am a full-time, full
+          stack software engineer helping to revolutionize the way we solve
+          health problems inside of the California Department of
+          Corrections'(CDCR) healthcare limb, the California Correctional Health
+          Care Services (CCHCS). Not to brag, but our team is doing some cool
+          stuff. We're <em>improving quality of care</em> for patients,
+          improving <em>quality of life</em> for providers, and{" "}
+          <em>saving big bucks for tax payers</em>. ^_^
+        </Paragraph>
+        <Paragraph>
+          I'm also currently enrolled in a MS of computer science and
+          maintaining a 4.0 GPA at Georgia Tech. I really enjoy software
+          engineering and plan to continue to self-educate to improve my
+          capabilities so that I can continue to drive innovation in the health
+          tech space.
+        </Paragraph>
+        <Paragraph>
+          In my free time I lift heavy weights, ride dirt bikes, practice
+          brazilian jiu jitsu (less often these days due to time constraints),
+          and keep a ton of pets. How many is a ton? Its kind of a small zoo: 3
+          dogs, 3 parakeets, 3 snakes, 6 poison dart frogs, a tortoise, and a
+          Halloween Moon Crab.
+        </Paragraph>
+        <Paragraph>
+          This website is effectively on hold. I am quite busy and not currently
+          performing any consultation or development work. But, I wanted to
+          leave this up for anybody who would like to reach and out connect.
         </Paragraph>
       </section>
-      <SuperLead>
-        <section className={styles.section}>
-          <blockquote>
-            I am an ABIM certified internal medicine physician with an intense
-            passion for medicine, information technology, fitness and the
-            intersection of those fields. Despite my long clinical hours, I am
-            reasonably proficient in several popular programming languages,
-            full-stack software development, network and IT administration, have
-            some experience in reverse engineering (primarily in capture the
-            flag events) and am actively involved in acquiring a professional
-            data scientist certification through IBM. I enjoy clinical medicine,
-            but I’m interested in leveraging my intense passion, a broad range
-            of experiences, and a unique skill set to bolster the creation of
-            valuable products that solve major health problems at scale.{" "}
-          </blockquote>
-        </section>
-      </SuperLead>
     </Layout>
   )
 }

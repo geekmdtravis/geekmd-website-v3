@@ -3,7 +3,7 @@ data:
   entries:
     - key: facebook
       name: Facebook
-      active: true
+      active: false
       url: https://www.facebook.com/geekmdllc
     - key: linkedin
       name: LinkedIn
@@ -11,15 +11,15 @@ data:
       url: https://www.linkedin.com/company/geekmd-llc/
     - key: twitter
       name: Twitter
-      active: true
+      active: false
       url: https://twitter.com/geekmdllc
     - key: instagram
       name: Instagram
-      active: true
+      active: false
       url: https://www.instagram.com/geekmdllc/
     - key: kaggle
       name: Kaggle
-      active: true
+      active: false
       url: https://www.kaggle.com/geekmd
     - key: github
       name: Github

@@ -23,7 +23,7 @@ data:
          are combined.
       ogImage: og_blog.jpg
       slug: /blog
-      active: true
+      active: false
     - entry:
       key: about
       title: About GeekMD
@@ -41,7 +41,7 @@ data:
         GeekMD's skills and solutions offer great value. In his blogs, he shares much of 
         what he has learned with eager learners.
       slug: /topics
-      active: true
+      active: false
     - entry:
       key: contact
       title: Contact
@@ -50,7 +50,7 @@ data:
         from you whether you've got questions about 
         GeekMD, the services offered, or any other topic.
       slug: /contact
-      active: true
+      active: false
     - entry:
       key: disclaimer
       title: Medical Disclaimer
@@ -60,11 +60,11 @@ data:
         of health problems or wellness. Please read 
         our medical disclaimer.
       slug: /disclaimer
-      active: true
+      active: false
   resources:
     - entry:
       key: onboarding-questionnaire
       title: Onboarding Questionnaire
       description: >-
         REMOVE ENTRY
-      active: true
+      active: false
